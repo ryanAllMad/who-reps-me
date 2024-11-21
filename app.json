@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Who Reps Me US",
+    "slug": "who-reps-me-us",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/capitol-white.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/capitol.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/capitol.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ryanallmad.whorepsmeus"
+    },
+    "web": {
+      "favicon": "./assets/capitol-white.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1c3dbcfc-38e2-4e91-a360-6bb880988c3a"
+      }
+    }
+  }
+}
